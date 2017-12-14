@@ -31,7 +31,7 @@ bench.sh
 ```bash
 Usage:
 
-| Option   | Bash Command                    |
+| No.      | Bash Command                    |
 |----------|---------------------------------|
 | 1        | wget -qO- bench.sh | bash       |
 | 2        | curl -Lso- bench.sh | bash      |
@@ -42,7 +42,7 @@ Usage:
 backup.sh
 =========
 
-- You must to modify the config before run it
+- You must modify the config before run it
 - Backup MySQL/MariaDB/Percona datebases, files and directories
 - Backup file is encrypted with AES256-cbc with SHA1 message-digest (option)
 - Auto transfer backup file to Google Drive (need install `gdrive` command) (option)
@@ -65,7 +65,7 @@ chmod +x /usr/bin/gdrive
 ftp_upload.sh
 =============
 
-- You must to modify the config before run it
+- You must modify the config before run it
 - Upload file(s) to FTP server
 - Intro: https://teddysun.com/484.html
 
@@ -81,4 +81,4 @@ pptp.sh(Deprecated)
 - Description: Auto Install PPTP for CentOS 6
 - Intro: https://teddysun.com/134.html
 
-Copyright (C) 2013-2016 Teddysun <i@teddysun.com>
+Copyright (C) 2013-2017 Teddysun <i@teddysun.com>
